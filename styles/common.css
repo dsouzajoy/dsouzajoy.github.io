@@ -1,0 +1,60 @@
+.mt16 {
+    margin-top: 16px !important;
+}
+
+.mb16 {
+    margin-bottom: 16px !important;
+}
+
+.mt24 {
+    margin-top: 24px;
+}
+
+.ml8 {
+    margin-left: 8px;
+}
+
+.mh80 {
+    margin: auto 80px !important;
+}
+
+.mb24 {
+    margin-bottom: 24px !important;
+}
+
+.mb32 {
+    margin-bottom: 32px;
+}
+
+
+.mt80 {
+    margin-top: 80px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mb64 {
+    margin-bottom: 64px !important;
+}
+
+.font-medium {
+    font-size: 100px !important;
+}
+
+.font-small {
+    font-size: 18px !important;
+}
+
+.font-micro {
+    font-size: 12px;
+}
+
+.width-fitcontent {
+    width: fit-content;
+}
+
+.text-center {
+    text-align: center;
+}
