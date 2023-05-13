@@ -1,0 +1,21 @@
+:root {
+    --black: #353535;
+
+    --bg: #F2EECB;
+    --border-regular: 1px solid var(--black);
+
+    --btn-ornamental-gradient: linear-gradient(to right, #FBBEC3 0%, #FDE3C1 25%, #9BD8E4 50%);
+    
+    --btn-primary-bg: #fff;
+    --btn-shadow-offset: 5px;
+
+    --font-bold: Turismo, sans-serif;
+    --font-regular: 'Oswald', sans-serif;
+
+    --text-color-regular: var(--black);
+
+    --depth:50px;
+    --duration: 800ms;
+    --timing-func: cubic-bezier(0.645,0.045,0.355,1);
+}
+

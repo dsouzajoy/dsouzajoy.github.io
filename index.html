@@ -1,13 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <title>React App</title>
-  </head>
-  <body>
-    <a href='http://dsouzajoy.github.io/portfolio'>My Portfolio</a>
-    <a href='http://dsouzajoy.github.io/corona-tracker'>Covid tracker</a>
-  </body>
+
+<head>
+    <meta content="Joy Dsouza is a front-end developer based in Bengaluru, India." name="description">
+    <meta content="Joy Dsouza | Frontend Developer" property="og:title">
+    <meta content="Joy Dsouza is a frontend developer based in Bengaluru, India." property="og:description">
+    <meta content="Joy Dsouza | Frontend Developer" property="twitter:title">
+    <meta content="Joy Dsouza is a frontend developer based in Bengaluru, India." property="twitter:description">
+    <meta property="og:type" content="website">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Dsouza | Frontend Developer</title>
+    <link href="./assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<div class="loader">Hello there...</div>
+
+<nav>
+    <a href="#" class="logo">
+        <img src="./assets/images/star.svg" /> Joy Dsouza
+    </a>
+    <ul class="nav-container">
+        <li class="nav-item">
+            <a href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#experience">Experience</a>
+        </li>
+    </ul>
+    <a href="https://www.linkedin.com/in/joydsouza11/" target="_blank" rel="noreferrer"
+        class="button button--ornamental">
+        LinkedIn
+        <img class="button__icon arrow-top-right ml8" src="./assets/images/arrow-right.svg" />
+    </a>
+</nav>
+
+<section class="section" id="home">
+    <div class="section__left">
+        <div class="home-section__location">
+            <img src="./assets/images/map-pin.svg" />
+            <span class="subtitle">Bengaluru, India</span>
+        </div>
+        <div class="home-section__title">
+            Hello,
+            <br />
+            I'm Joy Dsouza
+        </div>
+        <div class="home-section__description">
+            I'm a frontend developer based in namma Bengaluru, India. I have
+            persistent passion for building aesthetically pleasing and accessible web experiences.
+        </div>
+        <a href="#experience" class="button button--primary mt24 width-fitcontent" id="hero-cta">
+            My experience
+            <img class="button__icon arrow-right ml8" src="./assets/images/arrow-right.svg" />
+        </a>
+    </div>
+    <div class="home-section__right">
+        <div class="home-section__image-box">
+            <img class="profile-img" alt="This is my picture" style="width: '100%'" src="./assets/images/profile.jpg">
+        </div>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <div class="section__left">
+        <img class="about-section__img" src="/assets/images/illustration.svg" />
+    </div>
+    <div class="section__right">
+        <h3 class="section__title">A little about me</h3>
+        <p class="text-content">
+            Thanks for stopping by. I am a Bangalore based Web designer and
+            developer. Recently, I joined the technology team at <a href="//smallcase.com/" target="__blank"
+                rel="noreferrer" class="link-text">
+                smallcase
+            </a>,
+            where I'm proud to be part of a team which is simplifying
+            investments for India.
+        </p>
+        <p class="text-content">
+            I really care about making things look good and easy to use, and it has helped me do well in my job. My
+            unwavering commitment to genuine empathy for end-users and prioritizing simplicity fosters exceptional user
+            experiences. I firmly believe that by valuing the needs of the individuals who interact with our products
+            and services, and streamlining their experience, we can create highly successful and impactful solutions.
+        </p>
+        <img class="signature" src="./assets/images/signature.svg" />
+    </div>
+</section>
+
+<section class="section__experience">
+    <h3 class="section__title mb64">The journey so far</h3>
+    <div class="experience-card-wrapper" id="experience">
+        <div class="experience-card">
+            <div class="employer-logo-wrapper employer-logo-wrapper__smallcase">
+                <img class="employer-logo" src="/assets/images/smallcase_logo.svg" />
+            </div>
+            <div class="'experience-card__content">
+                <span class="font-micro">October 2022 - Present</span>
+                <h4 class="mt8">
+                    Software Development Engineer @
+                    <a href="//smallcase.com/" target="__blank" rel="noreferrer" class="link-text">
+                        smallcase
+                    </a>
+                </h4>
+                <ul>
+                    <li>
+                        Working on developing and improving the web widget used across
+                        multiple platforms allowing subscription of premium stock
+                        portfolios.
+                    </li>
+                    <li>
+                        Collaborating in a cross-functional team to find scalable
+                        solutions to issues identified in the application.
+                    </li>
+                    <li>
+                        Working closely with the product team to conduct A/B testing with the goal of enhancing user
+                        experience and driving higher user conversion rates on our platform.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="experience-card">
+            <div class="employer-logo-wrapper">
+                <img class="employer-logo" src="/assets/images/servify_logo.png" />
+            </div>
+            <div class="'experience-card__content">
+                <span class="font-micro">September 2020 - October 2022</span>
+                <h4 class="mt8">
+                    Product Engineer @
+                    <a href="//servify.in/" target="__blank" rel="noreferrer" class="link-text">
+                        Servify
+                    </a>
+                </h4>
+                </h4>
+                <ul>
+                    <li>
+                        Developed React-Redux based consumer application for device
+                        after-sales processing, featuring purchasing of insurance plans,
+                        repairs, exchange, recycle, etc. For the OEMs like Apple, Oneplus,
+                        Nokia, Samsung and many others.
+                    </li>
+                    <li>
+                        i18N Consumer app featuring languages like Arabic with RTL
+                        support.
+                    </li>
+                    <li>
+                        Worked on integrating multiple payment gateways like Razorpay,
+                        Stripe, and Paypal.
+                    </li>
+                    <li>
+                        Designed and built a react component library from scratch
+                        containing reusable styles, hooks and components to be used by
+                        different tech teams.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <a href="/" class="logo">
+        <img src="./assets/images/star.svg" /> Joy Dsouza
+    </a>
+
+    <div class="footer__social-links">
+        <a href="https://github.com/dsouzajoy" rel="noreferrer" target="__blank" class="footer__social-link">
+            <img src="./assets/images/github.svg" />
+            <span>GITHUB</span>
+        </a>
+        <a href="mailto:joydsouza3380@gmail.com" rel="noreferrer" target="__blank" class="footer__social-link">
+            <img src="./assets/images/mail.svg" />
+            <span>E-MAIL</span>
+        </a>
+        <a href="https://wa.me/918197475368" rel="noreferrer" target="__blank" class="footer__social-link">
+            <img src="./assets/images/message-circle.svg" />
+            <span>WHATSAPP</span>
+        </a>
+    </div>
+
+    <a href="https://www.linkedin.com/in/joydsouza11/" target="_blank" rel="noreferrer"
+        class="button button--ornamental">
+        LinkedIn
+        <img class="button__icon arrow-top-right ml8" src="./assets/images/arrow-right.svg" />
+    </a>
+</footer>
+
 </html>
