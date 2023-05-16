@@ -44,6 +44,10 @@ nav {
     animation-delay: 1500ms;
 }
 
+.nav-hamburger {
+    display: none;
+}
+
 #home {
     min-height: calc(100vh - 112px);
 }
@@ -445,3 +449,67 @@ li {
 .employer-logo {
     width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav > #nav-cta {
+        display: none;
+    }
+
+    .nav-container {
+        width: 100vw;
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav-hamburger {
+        display: initial;
+    }
+
+    #home {
+        min-height: unset;
+    }
+
+    #home > .section__left {
+        order:2;
+    }
+
+    .home-section__image-box {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .home-section__image-box:hover img {
+        filter: grayscale(0);
+    }
+
+    .section {
+        padding: 2vh 20px;
+        grid-auto-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer > #footer-logo {
+        display: none;
+    }
+
+    .section__experience {
+        padding: 2vh 20px;
+    }
+
+    .experience-card-wrapper {
+        flex-direction: column;
+    }
+
+    .experience-card {
+        width: 100%;
+    }
+  }
